@@ -56,8 +56,8 @@ Type `!!lm` to show all features of this plugin
 
 |Command|Description|
 |---|---|
-|`!!lm add <group> <name> <x> <y> <z> [dim]`|Add a location manually|
-|`!!lm add here <group> <name>`|Add the player's current location (auto-creates the group)|
+|`!!lm add <group> <waypoint> <x> <y> <z> [dim]`|Add a location manually|
+|`!!lm add here <group> <waypoint>`|Add the player's current location (auto-creates the group)|
 
 > Dimension values: `0`/`-1`/`1`, or `overworld`/`nether`/`end`, or `主世界`/`下界`/`末地`
 
@@ -67,8 +67,8 @@ Type `!!lm` to show all features of this plugin
 
 |Command|Description|
 |---|---|
-|`!!lm del <group> <index>`|Request deletion of a location (shows a confirm button)|
-|`!!lm confirm <group> <index>`|Confirm deletion of a location|
+|`!!lm del <group> <waypoint>`|Request deletion of a location (shows a confirm button)|
+|`!!lm confirm <group> <waypoint>`|Confirm deletion of a location|
 
 > [!TIP]
 > Deletion uses two-step confirmation: `del` requests → click `[confirm]` → `confirm` deletes, preventing accidental removal.
@@ -79,7 +79,7 @@ Type `!!lm` to show all features of this plugin
 
 |Command|Description|
 |---|---|
-|`!!lm tp <group> <index>`|Teleport to a location|
+|`!!lm tp <group> <waypoint>`|Teleport to a location|
 
 > [!WARNING]
 > `tp` is only available to players in **creative mode**.

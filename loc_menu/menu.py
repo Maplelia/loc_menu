@@ -32,7 +32,7 @@ def build_menu(waypoints, group_name=None):
             del_btn = (
                 RText(" [×]", color=RColor.red)
                 .c(RClickAction.suggest_command, del_cmd)
-                .h(RText("点击填入确认命令，回车后删除", color=RColor.red))
+                .h(RText("点击删除路径点", color=RColor.red))
             )
             lines.append(del_btn)
         lines.append("\n")
