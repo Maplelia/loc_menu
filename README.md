@@ -13,26 +13,12 @@ English | [简体中文](/README.zh-CN.md)
 <summary>Table of Contents</summary>
 
 - [LocMenu for MCDReforged](#locmenu-for-mcdreforged)
-  - [Installation](#installation)
   - [Usage](#usage)
   - [Configuration](#configuration)
   - [Troubleshooting](#troubleshooting)
   - [License](#license)
 
 </details>
-
-## Installation
-
-Run the following command in the MCDR console to install the plugin
-
-`!!MCDR plugin install loc_menu`
-
----
-
-Or download `loc_menu.mcdr` from the [MCDR Plugin Catalogue](https://mcdreforged.com/plugin/loc_menu) and place it into the `plugins/` folder of your MCDR server
-
-> [!IMPORTANT]
-> The `add here` and `tp` commands require the [MinecraftDataAPI](https://github.com/MCDReforged/MinecraftDataAPI) plugin. Install it first (`!!MCDR plugin install minecraft_data_api`).
 
 ## Usage
 

@@ -13,26 +13,12 @@
 <summary>目录(点击展示)</summary>
 
 - [LocMenu for MCDReforged](#locmenu-for-mcdreforged)
-  - [安装](#安装)
   - [使用](#使用)
   - [配置](#配置)
   - [故障排查](#故障排查)
   - [许可证](#许可证)
 
 </details>
-
-## 安装
-
-在 MCDR 控制台中使用如下命令以安装插件
-
-`!!MCDR plugin install loc_menu`
-
----
-
-或者从 [MCDR 插件仓库](https://mcdreforged.com/plugin/loc_menu) 获取 `loc_menu.mcdr`，放入 MCDR 服务器的 `plugins/` 目录
-
-> [!IMPORTANT]
-> `add here` 和 `tp` 命令依赖 [MinecraftDataAPI](https://github.com/MCDReforged/MinecraftDataAPI) 插件，请先安装（`!!MCDR plugin install minecraft_data_api`）。
 
 ## 使用
 
