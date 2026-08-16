@@ -1,0 +1,18 @@
+{
+	"id": "loc_menu",
+	"version": "3.8.0",
+	"name": "LocMenu",
+	"description": {
+		"en_us": "Grouped location list. View coordinates by group and share them to chat.",
+		"zh_cn": "按分组展示坐标，点击分享位置到聊天栏，支持添加当前位置。"
+	},
+	"author": [
+		"MCDR"
+	],
+	"link": "",
+	"dependencies": {
+		"mcdreforged": ">=2.0.0",
+		"minecraft_data_api": ">=1.4.0"
+	},
+	"entrypoint": "loc_menu"
+}
